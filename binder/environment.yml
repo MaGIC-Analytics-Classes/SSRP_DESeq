@@ -1,0 +1,13 @@
+name: ngs-class
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - notebook=5.7.5
+  - jupyterlab=1.2
+  - ipywidgets=7.5
+  - rpy2=2.9.4
+  - numpy=1.18.1
+  - ipython=7.13.0
+  - pandas=1.0.3
