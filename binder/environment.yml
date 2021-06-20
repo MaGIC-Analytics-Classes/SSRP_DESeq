@@ -22,4 +22,4 @@ dependencies:
   - bioconda::bioconductor-enhancedvolcano=1.10.0
   - bioconda::bioconductor-pcatools=2.4.0
   - bioconda::r-pheatmap=1.0.8
-  - bioconda::bioconductor-deseq=1.26.0
+  - bioconda::bioconductor-deseq=1.26.0-0
