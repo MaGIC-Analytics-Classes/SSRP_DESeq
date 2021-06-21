@@ -3,7 +3,6 @@ nano
 tzdata
 libncurses5-dev
 libncursesw5-dev
-libjpeg62-turbo-dev
 libcurl4-openssl-dev
 libssl-dev
 libv8-dev
