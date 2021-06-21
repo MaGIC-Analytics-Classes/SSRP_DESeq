@@ -2,12 +2,9 @@ if (!requireNamespace("BiocManager", quietly = TRUE))
     install.packages("BiocManager")
 BiocManager::install()
 
-pkgs = c("knitr", "rmarkdown", "ggplot2", "ggpubr", "reshape2","colorbrewer","tidyverse","msigdbr","plotly","stringr","venndiagram","devtools", "pheatmap",'IRkernel')
+pkgs = c("knitr", "remotes","rmarkdown","Biobase", "ggplot2", "ggpubr", "reshape2","RColorBrewer","tidyverse","msigdbr","plotly","stringr","venndiagram",,'VennDiagram'"devtools", "pheatmap",'IRkernel','UpSetR')
 
 install.packages(pkgs)
 
-BiocManager::install("DESeq2")
-BiocManager::install("clusterProfiler")
-BiocManager::install("clusterProfiler")
-BiocManager::install("PCAtools")
-BiocManager::install("EnhancedVolcano")
+BiocManager::install(c("DESeq2","EnhancedVolcano","enrichplot","pathview","annotate","geneplotter","genefilter","clusterProfiler"))
+remotes::install_github('kevinblighe/PCAtools')
