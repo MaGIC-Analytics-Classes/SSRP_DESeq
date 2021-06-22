@@ -2,7 +2,7 @@ if (!requireNamespace("BiocManager", quietly = TRUE))
     install.packages("BiocManager")
 BiocManager::install()
 
-pkgs = c("devtools","reshape2","reshape","cowplot","superheat",'r-lib','GenomicRanges','SummarizedExperiment','genefilter','locfit','geneplotter','Hmisc','RcppArmadillo',"knitr", "remotes","rmarkdown","Biobase", "ggraph","tidygraph","ggplot2", "ggpubr", "reshape2","RColorBrewer","tidyverse","msigdbr","plotly","stringr","venndiagram","VennDiagram","devtools", "pheatmap",'IRkernel','UpSetR','scatterplot3d')
+pkgs = c("devtools","reshape2","reshape","cowplot","superheat",'r-lib','GenomicRanges','SummarizedExperiment','genefilter','locfit','geneplotter','Hmisc','RcppArmadillo',"knitr", "remotes","rmarkdown","Biobase", "ggraph","tidygraph","ggplot2", "ggpubr",'dplyr', "reshape2","RColorBrewer","tidyverse","msigdbr","plotly","stringr","venndiagram","VennDiagram","devtools", "pheatmap",'IRkernel','UpSetR','scatterplot3d')
 
 install.packages(pkgs)
 
