@@ -6,6 +6,6 @@ pkgs = c("devtools","reshape2","reshape","cowplot","superheat",'r-lib','GenomicR
 
 install.packages(pkgs)
 
-BiocManager::install(c("DESeq2","EnhancedVolcano","enrichplot","pathview","annotate","geneplotter","DelayedArray","genefilter","clusterProfiler"))
+BiocManager::install(c("DESeq2","EnhancedVolcano","enrichplot","pathview","annotate","geneplotter","DelayedArray","genefilter","clusterProfiler","DelayedMatrixStats"))
 remotes::install_github('kevinblighe/PCAtools')
 BiocManager::install('org.Mm.eg.db', character.only = TRUE)
